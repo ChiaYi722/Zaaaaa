@@ -1,0 +1,1 @@
+$(type_ti).fadeIn('slow');

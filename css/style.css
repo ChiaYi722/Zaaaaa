@@ -1,0 +1,514 @@
+.body {
+    margin: 0 auto;
+    background-color: #F1EEE9;
+}
+
+.content {
+    width: 1440px;
+    height: 1740px;
+    margin: 0 auto;
+    background-color: #F1EEE9;
+    display: flex;
+    align-items: flex-start;
+}
+
+.BGpic1 {
+    opacity: 80%;
+    margin: 0 auto;
+    position: absolute; 
+    top: 0%;   
+    z-index: 1;
+}
+
+.header {
+    width: 1292px;
+    height: 74px;
+    margin: 42px 74px 950px 74px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 0%; 
+    z-index: 2;
+}
+
+.Logo1 {
+    margin-right: 31px;
+}
+
+.button1 {
+    width: 65px;
+    margin-right: 45px;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: #485D17;
+}
+
+.button1 {
+    transition: all 0.5s ease-out;
+}
+
+.button1:hover {
+    opacity: 30%;
+}
+
+.button2 {
+    width: 65px;
+    margin-right: 45px;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: #485D17;
+}
+
+.button2 {
+    transition: all 0.5s ease-out;
+}
+
+.button2:hover {
+    opacity: 30%;
+}
+
+.button3 {
+    width: 65px;
+    margin-right: 784px;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: #485D17;
+}
+
+.button3 {
+    transition: all 0.5s ease-out;
+}
+
+.button3:hover {
+    opacity: 30%;
+}
+
+.search {
+    margin: 0;
+}
+
+.search img {
+    transform:scale(1,1);transition: all 0.5s ease-out;
+}
+
+.search img:hover {
+    opacity: 10%;
+}
+
+.user {
+    margin-left: 20px;
+}
+
+.user img {
+    transform:scale(1,1);transition: all 0.5s ease-out;
+}
+
+.user img:hover {
+    opacity: 10%;
+}
+
+.text {
+    height: 411px;
+    position: absolute;
+    top: 0%; 
+    z-index: 2;
+    display: flex;
+    align-items: flex-start;
+    margin-top: 385px;
+}
+
+.line1 {
+    width: 626px;
+    height: 110px;
+    margin: 0 407px;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-weight: 700;
+    font-size: 96px;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@keyframes swing {
+    15% { transform: translate(5px);} 
+    40% { transform: translate(-5px);}
+    65% { transform: translate(2px);}
+    85% { transform: translate(-2px);}
+    100% { transform: translate(0px);}   
+}
+
+.line1:hover {
+    animation:swing 0.5s 10;
+}
+
+.line2 {
+    width: 1015px;
+    height: 120px;
+    margin: 110px 213px 393px;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-weight: 700;
+    font-size: 120px;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0%; 
+    z-index: 3;
+}
+
+@keyframes swing {
+    15% { transform: translate(5px);} 
+    40% { transform: translate(-5px);}
+    65% { transform: translate(2px);}
+    85% { transform: translate(-2px);}
+    100% { transform: translate(0px);}   
+}
+
+.line2:hover {
+    animation:swing 0.3s 10;
+}
+
+.line2:hover {
+    color:#F24607;
+    opacity: 80%;
+}
+
+.sloganline1 {
+    width: 420px;
+    height: 1px;
+    background-color: #485D17;
+    position: absolute;
+    top: 0%; 
+    z-index: 3;
+    display: flex;
+    margin: 477px 510px 9px;    
+}
+
+.slogan {
+    width: 385px;
+    height: 22px;
+    font-size: 18px;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-weight: 700;
+    color: #485D17;
+    margin: 487px 527.5px 9px;
+    position: absolute;
+    top: 0%; 
+    z-index: 3;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    text-align: center;
+}
+
+.sloganline2 {
+    width: 420px;
+    height: 1px;
+    background-color: #485D17;
+    position: absolute;
+    top: 0%; 
+    z-index: 3;
+    display: flex;
+    margin: 518px 510px;    
+}
+
+.to_menu {
+    position: absolute;
+    top: 0%; 
+    z-index: 3;
+}
+
+.pizzaboy {
+    position: fixed;
+    right: 16%;
+    top: 77%;
+}
+
+.pizzaboy img {
+    transform:scale(1,1);transition: all 0.3s ease-out;
+}
+
+.pizzaboy img:hover {
+    transform:scale(1.3,1.3);
+}
+
+.pizzaboy:hover {
+    transform: rotate(345deg);
+}
+
+.BGpic2 {
+    margin: 1028px auto;
+    position: absolute; 
+    top: 0%;   
+    z-index: 1;
+}
+
+.qualityTop {
+    width: 588px;
+    height: 114px;
+    margin: 1148px 93px 53px 759px;
+    position: absolute; 
+    top: 0%;   
+    z-index: 2;
+    display: flex;
+}
+
+.LinePart1 {
+    width: 175px;
+    height: 114px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 50px;
+}
+
+.Qualityline1 {
+    width: 175px;
+    height: 1px;
+    margin-top: 50px;
+    background-color: #485D17;
+}
+
+.Qualityline2 {
+    width: 175px;
+    height: 1px;
+    margin-top: 13px;
+    background-color: #485D17;
+}
+
+.LinePart2 {
+    width: 175px;
+    height: 114px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+}
+
+.QualityText {
+    width: 600px;
+    height: 296px;
+    margin: 1315px 85px 127px 755px;
+    position: absolute; 
+    top: 0%;   
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.title {
+    height: 45px;
+    font-size: 48px;
+    font-family: 'Noto Sans TC', sans-serif;
+    line-height: 56px;
+    font-weight: 700;
+    color: #485D17;
+    display: flex;
+    align-items: flex-start;   
+    margin-bottom: 110px; 
+}
+
+.p1 {
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 18px;
+    color: #485D17;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.p2 {
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 18px;
+    color: #485D17;
+    font-weight: 400;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+    height: 315px;
+    background-color: #485D17;
+    margin: 0 auto;
+}
+
+.tool_bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 457px;
+    height: 97px;
+    margin-top: 83px;
+    margin-bottom: 50px;
+}
+
+.tool_title {
+    font-family: 'Noto Sans TC', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: #FFFF;
+    text-align: left;
+    line-height: 14px;
+    margin-bottom: 10px;
+}
+
+.tool_text{
+    font-family: 'Noto Sans TC', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    color: #FFFF;
+    text-align: left;
+    line-height: 1.8;
+}
+
+.textButton{
+    color: #FFFF;
+    display: flex;
+}
+
+.SNS {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 168px;
+    height: 24px;
+    margin-bottom: 18px;
+}
+
+.sns_icon {
+    width: 24px;
+    height: 24px;
+}
+
+.spell {
+    font-family: 'Noto Sans TC', sans-serif;
+    font-weight: 300;
+    font-size: 10px;
+    color: #FFFF;
+}
+
+@media screen and (max-width: 768px){
+
+    img {
+        width: 100%;
+    }
+
+    .BGpic1 {
+        margin: 75px auto;
+    }
+
+    .text {
+        display: none;
+    }
+
+    .search {
+        display: none;
+    }
+
+    .user {
+        display: none;
+    }
+
+    .BGpic2 {
+        margin: 1150px 70px;
+        width: 150%;
+    }
+
+    .qualityTop {
+        margin: 650px 90px;
+    }
+
+    .QualityText {
+        margin: 850px 90px;
+    }
+
+    .title {
+        width: 100%;
+    }
+
+    .p1 {
+        width: 100%;
+    }
+
+    .p2 {
+        width: 100%;
+    }
+
+    .LinePart1 {
+        width: 100%;
+    }
+
+    .LinePart2 {
+        width: 100%;
+    }
+
+    .Logo2 {
+        width: 100%;
+    }
+
+}
+
+
+@media screen and (max-width: 576px){
+    img {
+        width: 100%;
+    }
+
+    .BGpic1 {
+        margin: 80px auto;
+    }
+
+    .text {
+        display: none;
+    }
+
+    .search {
+        display: none;
+    }
+
+    .user {
+        display: none;
+    }
+
+    .BGpic2 {
+        margin: 1250px 70px;
+        width: 150%;
+    }
+
+    .qualityTop {
+        margin: 650px 5px;
+    }
+
+    .QualityText {
+        margin: 850px 5px;
+    }
+
+    .title {
+        width: 100%;
+    }
+
+    .p1 {
+        width: 100%;
+    }
+
+    .p2 {
+        width: 100%;
+    }
+
+    .LinePart1 {
+        width: 100%;
+    }
+
+    .LinePart2 {
+        width: 100%;
+    }
+
+    .Logo2 {
+        width: 100%;
+    }
+}

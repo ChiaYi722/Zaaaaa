@@ -1,0 +1,340 @@
+.body {
+    margin: 0 auto;
+}
+
+.content {
+    width: 1440px;
+    height: 1740px;
+    background-color: #F1EEE9;
+    margin: 0 auto;
+    position: relative;
+    
+}
+
+.BGpic {
+    width: 1440px;
+    height: 850px;
+    position: absolute; 
+    top: 0%;   
+    z-index: 1;
+    overflow:hidden;
+}
+
+.BGpic img {
+    transform:scale(1,1);transition: all 1.7s ease-out;
+}
+
+.BGpic img:hover {
+    transform:scale(1.0906,1.0906);
+}
+
+.Title {
+    font-family: 'Noto Sans TC', sans-serif;
+    font-weight: 700;
+    font-size: 120px;
+    color: #FFFF;
+    text-align: center;
+    position: absolute; 
+    top: 349px;
+    left: 107px; 
+    z-index: 2;
+}
+
+.header {
+    width: 1292px;
+    height: 74px;
+    margin: 42px 74px 950px 74px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 0%; 
+    z-index: 2;
+    
+}
+
+.Logo {
+    margin-right: 31px;
+}
+
+.button1 {
+    width: 65px;
+    margin-right: 45px;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFF;
+}
+
+.button1 {
+    transition: all 0.5s ease-out;
+}
+
+.button1:hover {
+    opacity: 30%;
+}
+
+.button2 {
+    width: 65px;
+    margin-right: 45px;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFF;
+}
+
+.button2 {
+    transition: all 0.5s ease-out;
+}
+
+.button2:hover {
+    opacity: 30%;
+}
+
+.button3 {
+    width: 65px;
+    margin-right: 784px;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFF;
+}
+
+.button3 {
+    transition: all 0.5s ease-out;
+}
+
+.button3:hover {
+    opacity: 30%;
+}
+
+.search {
+    margin: 0;
+}
+
+.search img {
+    transform:scale(1,1);transition: all 0.5s ease-out;
+}
+
+.search img:hover {
+    opacity: 10%;
+}
+
+.user {
+    margin-left: 20px;
+}
+
+.user img {
+    transform:scale(1,1);transition: all 0.5s ease-out;
+}
+
+.user img:hover {
+    opacity: 10%;
+}
+
+.menu_title {
+    font-family: 'Noto Sans TC', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: #485D17;
+    text-align: center;
+    position: absolute;
+    top: 933px;
+    left: 74px;
+    z-index: 1;
+}
+
+.menu_line {
+    width: 1252px;
+    height: 1px;
+    background-color: #485D17;
+    position: absolute;
+    top: 976px;
+    left: 74px;
+    z-index: 1;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    width: 970px;
+    height: 612px;
+    position: absolute;
+    top: 1047px;
+    left: 235px;
+    z-index: 1;
+}
+
+.first_bar {
+    display: flex;
+    flex-direction: row;
+    width: 970px;
+    height: 265px;
+    margin-bottom: 82px;
+}
+
+.sec_bar {
+    display: flex;
+    flex-direction: row;
+    width: 970px;
+    height: 265px;
+}
+
+.menu_box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 145px;
+    height: 265px;
+    margin-right: 85px;
+    position: relative;
+}
+
+.menu_box_last {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 145px;
+    height: 265px;
+    margin-right: 75px;
+    position: relative;
+}
+
+.ZApic {
+    width: 135px;
+    height: 135px;
+    margin-top: 2px;
+    margin-bottom: 10px;
+}
+
+.ZApic img {
+    transform:scale(1,1);transition: all 1s ease-out;
+}
+
+.ZApic img:hover {
+    transform:scale(0.9,0.9);
+}
+
+.ZAtitle {
+    width: 145px;
+    height: 25px;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    color: #485D17;
+    text-align: center;
+    line-height: 24px; 
+}
+
+.ZAline {
+    width: 145px;
+    height: 0.5px;
+    opacity: 80%;
+    background-color: #485D17;
+    margin-top: 5px;
+    margin-bottom: 6px;
+}
+
+.ZAtext {
+    margin-left: 5px;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #485D17;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.ZAbuy {
+    width: 145px;
+    height: 32px;
+    background-color: #485D17;
+    position: absolute;
+    bottom: 0%;
+}
+
+.ZAbuy img {
+    transform:scale(1,1);transition: all 0.3s ease-out;
+}
+
+.ZAbuy img:hover {
+    transform:scale(1.2,1.2);
+}
+
+
+.next_page {
+    margin-top: 102.5px;
+}
+
+.next_page img {
+    transform:scale(1,1);transition: all 0.5s ease-out;
+}
+
+.next_page img:hover {
+    transform:scale(1.2,1.2);
+    opacity: 10%;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1440px;
+    height: 315px;
+    background-color: #485D17;
+    margin: 0 auto;
+}
+
+.tool_bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 457px;
+    height: 97px;
+    margin-top: 83px;
+    margin-bottom: 50px;
+}
+
+.tool_title {
+    font-family: 'Noto Sans TC', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: #FFFF;
+    text-align: left;
+    line-height: 14px;
+    margin-bottom: 10px;
+}
+
+.tool_text{
+    font-family: 'Noto Sans TC', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    color: #FFFF;
+    text-align: left;
+    line-height: 1.8;
+}
+
+.textButton{
+    color: #FFFF;
+    display: flex;
+}
+
+.SNS {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 168px;
+    height: 24px;
+    margin-bottom: 18px;
+}
+
+.sns_icon {
+    width: 24px;
+    height: 24px;
+}
+
+.spell {
+    font-family: 'Noto Sans TC', sans-serif;
+    font-weight: 300;
+    font-size: 10px;
+    color: #FFFF;
+}
