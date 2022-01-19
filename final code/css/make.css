@@ -1,0 +1,455 @@
+.body {
+    margin: 0;
+}
+
+.content {
+    width: 1440px;
+    height: 1740px;
+    margin: 0 auto;
+    background-color: #F1EEE9;
+    display: flex;
+    align-items: flex-start;
+}
+
+.BGpic1 {
+    opacity: 80%;
+    margin: 0 auto;
+    position: absolute; 
+    top: 0%;   
+    z-index: 1;
+}
+
+.header {
+    width: 1292px;
+    height: 74px;
+    margin: 42px 74px 950px 74px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 0%; 
+    z-index: 2;
+}
+
+.Logo1 {
+    margin-right: 31px;
+}
+
+.button1 {
+    width: 65px;
+    margin-right: 45px;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: #485D17;
+}
+
+.button1 {
+    transition: all 0.5s ease-out;
+}
+
+.button1:hover {
+    opacity: 30%;
+}
+
+.button2 {
+    width: 65px;
+    margin-right: 45px;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: #485D17;
+}
+
+.button2 {
+    transition: all 0.5s ease-out;
+}
+
+.button2:hover {
+    opacity: 30%;
+}
+
+.button3 {
+    width: 65px;
+    margin-right: 784px;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: #485D17;
+}
+
+.button3 {
+    transition: all 0.5s ease-out;
+}
+
+.button3:hover {
+    opacity: 30%;
+}
+
+.search {
+    margin: 0;
+}
+
+.search img {
+    transform:scale(1,1);transition: all 0.5s ease-out;
+}
+
+.search img:hover {
+    opacity: 10%;
+}
+
+.user {
+    margin-left: 20px;
+}
+
+.user img {
+    transform:scale(1,1);transition: all 0.5s ease-out;
+}
+
+.user img:hover {
+    opacity: 10%;
+}
+
+.to_menu {
+    position: absolute;
+    top: 0%; 
+    z-index: 5;
+}
+
+.pizzaboy {
+    position: fixed;
+    right: 16%;
+    top: 77%;
+}
+
+.pizzaboy img {
+    transform:scale(1,1);transition: all 0.3s ease-out;
+}
+
+.pizzaboy img:hover {
+    transform:scale(1.3,1.3);
+}
+
+.pizzaboy:hover {
+    transform: rotate(345deg);
+}
+
+.LongColor {
+    width: 1440px;
+    height: 450px;
+    background-color: #485D17;
+    margin-top: 158px;
+    position: absolute;
+    top: 0%; 
+    z-index: 2;
+}
+
+.LongPic {
+    width: 1440px;
+    height: 450px;
+    margin-top: 158px;
+    position: absolute;
+    top: 0%; 
+    z-index: 3;
+    display: flex;
+    justify-self: center;
+    overflow:hidden;
+    opacity: 90%;
+}
+
+.LongPic img {
+    transform:scale(1,1);transition: all 1.7s ease-in;
+}
+
+.LongPic img:hover {
+    transform:scale(1.0906,1.0906);
+}
+
+.BigTitle {
+    width: 895px;
+    height: 225px;
+    display: flex;
+    flex-direction: column;
+    margin: 270px 271px 0;
+}
+
+.BigTitle1 {
+    height: 56px;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 96px;
+    font-weight: 700;
+    color: #FFFFFF;
+    position: absolute;
+    top: 0%; 
+    z-index: 4;
+    display: flex;
+    margin-top: 270px;
+}
+
+.BigTitle2 {
+    height: 56px;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 96px;
+    font-weight: 700;
+    color: #FFFFFF;
+    position: absolute;
+    top: 0%; 
+    z-index: 4;
+    display: flex;
+    margin-top: 375px;
+    margin-left: 170px;
+}
+
+.LittleTittle {
+    width: 320px;
+    height: 20px;
+    font-size: 18px;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-weight: 700;
+    color: #485D17;
+    display: flex;
+    margin: 691px 1083px 23px 70px;
+    position: absolute;
+    top: 0%; 
+    z-index: 4;
+}
+
+.LINE {
+    width: 1300px;
+    height: 1px;
+    position: absolute;
+    top: 0%; 
+    z-index: 4;
+    margin: 734px 70px 290px 70px;
+    background-color: #485D17;
+}
+
+.class_box {
+    width: 970px;
+    height: 403px;
+    display: flex;
+    flex-direction: row;
+    margin: 805px 235px 66px 235px;
+    position: absolute;
+    top: 0%; 
+    z-index: 3;
+}
+
+.box1 {
+    width: 275px;
+    height: 403px;
+    background-color: #FFFFFF;
+    margin-right: 72.5px;
+    border-radius: 10px;
+}
+
+.box1 {
+    transition: all 0.5s ease-out;
+}
+
+.box1:hover {
+    opacity: 50%;
+}
+
+.box2 {
+    width: 275px;
+    height: 403px;
+    background-color: #FFFFFF;
+    margin-right: 72.5px;
+    border-radius: 10px;
+}
+
+.box2 {
+    transition: all 0.5s ease-out;
+}
+
+.box2:hover {
+    opacity: 50%;
+}
+
+.box3 {
+    width: 275px;
+    height: 403px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+}
+
+.box3 {
+    transition: all 0.5s ease-out;
+}
+
+.box3:hover {
+    opacity: 50%;
+}
+
+.pic1 {
+    width: 275px;
+    height: 275px;
+    margin-right: 73px;
+}
+
+.break {
+    height: 20px;
+}
+
+.classtext {
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 6px;
+    color: #485D17;
+    margin: 0 35px 6px;
+}
+
+.introduce {
+    width: 220px;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #485D17;
+    margin: 0 35px;
+}
+
+.pic2 {
+    width: 275px;
+    height: 275px;
+    margin-right: 73px;
+}
+
+.pic3 {
+    width: 275px;
+    height: 275px;
+}
+
+.informationBox {
+    width: 970px;
+    height: 365px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    position: absolute;
+    top: 0%; 
+    z-index: 4;
+    margin-top: 435px;
+}
+
+.informationText {
+    padding: 23px 50px;
+    font-family: 'Noto Sans TC', sans-serif;
+    color: #485D17;
+    position: absolute;
+    top: 0%; 
+    z-index: 4;
+}
+
+.notice {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 6px;
+}
+
+.noticetext {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 8px;
+}
+
+.try {
+    width: 80px;
+    height: 55px;
+    background-color: #485D17;
+    position: absolute;
+    top: 0%; 
+    z-index: 5;
+    margin: 1635px 680px 49px 680px;
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    border-radius: 5px;
+}
+
+.try:hover {
+    transform: rotate(-30deg);
+    background-color: #F24607;
+    border-radius: 50%;
+}
+
+.tryNow {
+    width: 80px;
+    height: 32px;
+    font-size: 14px;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-weight: 300;
+    color: #FFFFFF;
+    margin: 16.5px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-self: center;
+    position: absolute;
+    top: 0%; 
+    z-index: 5;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1440px;
+    height: 315px;
+    background-color: #485D17;
+    margin: 0 auto;
+}
+
+.tool_bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 457px;
+    height: 97px;
+    margin-top: 83px;
+    margin-bottom: 50px;
+}
+
+.tool_title {
+    font-family: 'Noto Sans TC', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: #FFFF;
+    text-align: left;
+    line-height: 14px;
+    margin-bottom: 10px;
+}
+
+.tool_text{
+    font-family: 'Noto Sans TC', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    color: #FFFF;
+    text-align: left;
+    line-height: 1.8;
+}
+
+.textButton{
+    color: #FFFF;
+    display: flex;
+}
+
+.SNS {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 168px;
+    height: 24px;
+    margin-bottom: 18px;
+}
+
+.sns_icon {
+    width: 24px;
+    height: 24px;
+}
+
+.spell {
+    font-family: 'Noto Sans TC', sans-serif;
+    font-weight: 300;
+    font-size: 10px;
+    color: #FFFF;
+}

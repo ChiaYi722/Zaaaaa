@@ -1,0 +1,361 @@
+body{
+    background-color: #F1EEE9;/*darkgoldenrod;*/
+    margin: 0 auto;
+    position: relative;
+}
+
+.bg-light {
+    --bs-bg-opacity: 0;
+}
+
+#nav .container-fluid {
+    margin-top: 11px;
+    padding: 0;
+    margin-bottom: 41px;
+}
+
+#nav .navbar {
+    padding: 0;
+    padding-left: 1px;
+}
+
+#nav .navbar-light .navbar-nav .nav-link {
+    color: #485D17;
+    margin-right: 45px;
+    padding: 4px 0px 0px 1px;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+#nav .nav-link {
+    transition: all 0.5s ease-out;
+}
+
+#nav .nav-link:hover {
+    opacity: 30%;
+}
+
+#nav .navbar-brand {
+    margin-left: 51px;
+    margin-right: 31px;
+}
+
+#nav .navbar-light .navbar-toggler {
+    color: #485D17;
+    border-color: rgba(72, 93, 23, 0.2);
+}
+
+.urimg {
+    margin-left: 20px;
+    margin-right: 83px;
+}
+
+.intro .container img {
+    position: absolute;
+    z-index: -1;
+    max-width:100%; /*不使用width:100% 是因避免圖片解析度不好，隨父元素被放大時會糊掉*/
+    min-height: auto;
+}
+
+.big_title {
+    opacity: 0;
+    margin-top: 10%;
+    margin-bottom: 20%;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-weight: 700;
+    font-size: 5rem;
+    color: #F1EEE9;
+    text-align: center;
+    /*position: absolute; 
+    z-index: 0;
+    top: 300px;
+    left: 307px;*/
+}
+
+
+.big_title {
+    transform:scale(1,1);transition: all 3s ease-out;
+}
+
+.big_title:hover {
+    transform:scale(1.1,1.1);
+}
+
+.list_title {
+    margin-bottom: 100px;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+    color: #485D17;
+}
+
+.li_ti {
+    margin-bottom: 20px;
+}
+
+.box {
+    background-color: #485D17;
+    max-width: 1440px;
+    height: 1px;
+}
+
+.set_pics {
+    max-width: 100%;
+}
+
+.type_ti {
+    font-family: 'Noto Sans TC', sans-serif;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 40px;
+    color: #485D17;
+    margin-bottom: 10px;
+}
+
+.type_tx {
+    margin-bottom: 80px;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-weight: 300;
+    font-size: 1.1rem;
+    line-height: 30px;
+    color: #485D17;
+}
+
+.outer {
+    background-color: #FFFF;
+    max-width: 275px;
+    height: 375px;
+    box-shadow: 0 0 5px 0 rgba(36, 73, 38, 0.2);
+    margin: 0px 100px 150px;
+}
+
+.outer {
+    transform:scale(1,1);transition: all 1s ease-out;
+}
+
+.outer:hover {
+    transform:scale(1.1,1.1);
+}
+
+.set_ti {
+    padding-top: 25px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-weight: 700;
+    font-size: 1.3rem;
+    color: #485D17;
+}
+
+.set_ti {
+    transform:scale(1,1);transition: all 1s ease-out;
+}
+
+.set_ti:hover {
+    opacity: 0.5;
+}
+
+
+.set_tx {
+    padding-left: 20px;
+    padding-bottom: 20px;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-weight: 300;
+    font-size: 0.9rem;
+    color: #485D17;
+}
+
+.set_txfar {
+    padding-left: 20px;
+    padding-bottom: 41px;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-weight: 300;
+    font-size: 0.9rem;
+    color: #485D17;
+}
+
+.set_txfarr {
+    padding-left: 20px;
+    padding-bottom: 55px;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-weight: 300;
+    font-size: 0.9rem;
+    color: #485D17;
+}
+
+.set_tail {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 20px;
+}
+
+.set_pr {
+    padding-left: 25px;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+    color: #485D17;
+}
+
+.buy {
+    width: 77px;
+    height: 28px;
+    background-color: #F24607;
+    border-radius: 4px;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1.6rem;
+    color: #FFFF;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.set_pics {
+    width: 275px;
+    height: 180px;
+    /*overflow: hidden;*/
+    
+}
+
+.big_fo {
+    display: none;
+}
+
+.big_fo .jumbotron {
+    background-color: #485D17;
+    width: 100%;
+    height: 311px;
+    padding-top: 80px;
+}
+
+.big_fo .col-md-2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.big_fo .fo_ti {
+    color: #FFFF;
+    margin-bottom: 10px;
+}
+
+.big_fo a {
+    color: #FFF;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-weight: 300;
+    font-size: 0.7rem;
+    margin-bottom: 3px;
+}
+
+.big_fo img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.sns {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.copyright {
+    background-color: #485D17;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    padding-bottom: 32px;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-weight: 300;
+    font-size: 0.5rem;
+    color: #FFFF;
+}
+
+/*footer設定*/
+
+footer {
+    display: none;
+}
+
+footer .jumbotron {
+    width: 100%;
+    height: auto;
+    padding-top: 80px;
+    background-color: #485D17;
+}
+
+.fo_ti {
+    display: none;
+    color: rgba(255, 255, 255, 1);
+    font-family: 'Noto Sans TC', sans-serif;
+    font-weight: 700;
+    font-size: 0.8rem;
+}
+
+footer container-fluid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+footer .navbar-light .navbar-toggler {
+    color: rgba(255, 255, 255, 1);
+    border-color: rgba(72, 93, 23, 0);
+    font-family: 'Noto Sans TC', sans-serif;
+    font-weight: 700;
+    font-size: 0.8rem;
+}
+
+footer .navbar-light .navbar-nav .nav-link {
+    color: #FFFF;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-weight: 300;
+    font-size: 0.7rem;
+}
+
+@media (min-width: 768px) {
+    .container
+    {
+        max-width: 1440px
+    } 
+}
+
+@media (max-width: 768px) {
+    .big_title
+    {
+        font-size: 3rem;
+    } 
+    .outer {
+        margin: 0px 100px 75px;
+    }
+}
+
+@media (min-width: 576px) {
+    .container
+    {
+        max-width: 1440px
+    }
+}
+
+@media only screen and (min-width:576px) {
+    .big_title { opacity: 1; }
+  }
+
+@media only screen and (min-width:768px) {
+    .fo_ti { display: block;}
+    .big_fo {display: block;}
+  }
+
+@media only screen and (max-width:768px) {
+    .big_fo {display: none;}
+    footer {display: block;}
+  }
+
+@media only screen and (max-width:992px) {
+    .srimg {display: none;}
+    .urimg {display: none;}
+  }
